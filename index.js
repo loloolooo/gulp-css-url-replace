@@ -27,7 +27,7 @@ module.exports = function (param) {
             .use(reworkUrl(function (url) {
                 if (url.indexOf('data:') === 0) {
                     return url;
-                } else if (/font/.test(url) && /svg/.test(fileExtension(url)) || isInArray(FONT, url)) {
+                } else if (/font/.test(url) && /svg/.test(fileExtension(url)) || isInArray(FONT, fileExtension(url))) {
                     prefix = font;
                 } else {
                     prefix = img;
