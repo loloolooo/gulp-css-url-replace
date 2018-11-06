@@ -6,7 +6,7 @@ module.exports = function (param) {
     param = param || {};
     const img = param.img || '/assets/img/';
     const font = param.font || '/assets/font/';
-    const FONT = ["eot", "ttf", "woff", "woff2"];
+    const FONT = ["eot", "ttf", "woff", "woff2", "font"];
 
     function fileExtension(file) {
         return file.slice((file.lastIndexOf('.') - 1 >>> 0) + 2).toLowerCase();;
