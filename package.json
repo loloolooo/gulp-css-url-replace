@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-url-replace",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Replace url() path in CSS",
   "main": "index.js",
   "dependencies": {
